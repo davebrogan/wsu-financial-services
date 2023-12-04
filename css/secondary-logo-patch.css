@@ -1,0 +1,22 @@
+/*secondary logo svg patch*/
+.secondary-logo[src$=".svg"] {
+     height: 55px !important;
+     margin-top: 14px;
+ }
+@media only screen and (max-width: 740px) {
+    .secondary-logo[src$=".svg"]  {
+        margin-top: 0;
+    }
+}
+
+/**
+.secondary-logo {
+    height: 55px !important;
+    margin-top: 14px;
+}
+@media only screen and (max-width: 740px) {
+    .secondary-logo {
+        margin-top: 0;
+    }
+}
+**/

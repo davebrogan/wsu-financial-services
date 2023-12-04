@@ -1,0 +1,18 @@
+@import "ui-utilities-master/variables";
+@import "ui-utilities-master/placeholders";
+@import "ui-utilities-master/functions";
+@import "ui-utilities-master/mixins";
+
+@import "pages/home/home.scss";
+@import "modules/fs-call-strip/fs-call-strip";
+@import "pages/about/about.scss";
+
+.card-personnel__content--dark > * a, .fancy-link-white{
+  color: #FFF !important;
+  border-bottom: 1px solid #FFF;
+  text-decoration: none !important;
+  &:hover, &:focus {
+    border-bottom: 3px solid #FFF !important;
+    font-weight: bold;
+  }
+}

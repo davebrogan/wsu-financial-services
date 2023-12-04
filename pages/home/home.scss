@@ -1,0 +1,133 @@
+@import "../../ui-utilities-master/variables";
+@import "../../ui-utilities-master/placeholders";
+@import "../../ui-utilities-master/functions";
+@import "../../ui-utilities-master/mixins";
+
+.banner {
+  &--fs-home {
+    @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/2X-homebannerConcur-1x.jpg");
+    //max-height: 700px; (optional)
+    min-height: 500px;
+    @include aspect-ratio($aspect-width: 3200, $aspect-height: 1000);
+    &__text-box--wrapper {
+      position: relative;
+      bottom: -36px;
+      width: 100%;
+      @media only screen and (min-width: 800px) {
+        max-width: 775px;
+      }
+      padding: 2em;
+      margin: 4em 0 0;
+    }
+  }
+}
+
+.fs-home__text-box {
+  &__title {
+    font-weight: 900;
+  }
+  &__text p {
+    line-height: 1.2;
+  }
+  &__button {
+    font-size: 1.5em;
+    text-transform: uppercase;
+    padding: 10px 2em !important;
+    border-radius: 10px;
+    font-family: $font-tgb;
+  }
+}
+
+.main-content {
+  &__departments {
+    &__title {
+      text-align: center;
+      padding: 1em 0
+    }
+  }
+}
+
+.departments-nav {
+  &__link-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 275px);
+    grid-column-gap: 15px;
+    grid-row-gap: 2.5em;
+    justify-content: center;
+    margin: 0 auto;
+    list-style-type: none !important;
+    &__item {
+      background-color: #ece9ef;
+      @include bg-img-placement(center, center);
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      justify-content: start;
+      height: 200px;
+      padding: 10px;
+      text-decoration: none !important;
+      text-align: center;
+      //transition: transform 0.5s, background-color 0.3s, background-position 0.5s, background-size 0.3s, border 0.3s !important;
+    }
+    &__accounting {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-accounting-1x.jpg");
+    }
+    &__budget {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-budget-1x.jpg");
+    }
+    &__bursar {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-bursar-1x.jpg");
+    }
+    &__events {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-eventsfacilities-1x.jpg");
+    }
+    &__fsit {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-FSIT-1x.jpg");
+    }
+    &__institutional-research {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-institutionalresearch-1x.jpg");
+    }
+    &__mail-center {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-mailservices-1x.jpg");
+    }
+    &__parking {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-parking-1x.jpg");
+    }
+    &__payroll {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-accounting-1x.jpg");
+    }
+    &__property-control {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-propertycontrol-1x.jpg");
+    }
+    &__purchasing {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-purchasing-1x.jpg");
+    }
+    &__risk-management {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-riskmanagement-1x.jpg");
+    }
+    &__printing {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-DesignPrint-1x.jpg");
+    }
+    &__copy-center {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-copycenter-1x.jpg");
+    }
+    &__wildcat-store {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-wildcatstore-1x.jpg");
+    }
+    &__shipping {
+      @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-shippingreceiving-1x.jpg");
+    }
+  }
+  a#{&}__link {
+    text-align: left;
+    color: #FFF;
+    max-width: 70%;
+    text-decoration: none;
+    line-height: 1.1;
+    font-size: 2em;
+    font-family: $font-tgbc20;
+    text-shadow: 2px 2px 3px #1f1c19;
+  }
+}
+
+

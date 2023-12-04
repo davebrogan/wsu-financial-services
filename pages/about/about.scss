@@ -1,0 +1,7 @@
+.banner {
+  &--fs-about {
+    @include bg-interchange-retina("https://www.weber.edu/wsuimages/financialservices/new-site/images/about/about-sf-banner-1x.jpg");
+    min-height: 500px;
+    @include aspect-ratio($aspect-width: 3200, $aspect-height: 1000);
+  }
+}

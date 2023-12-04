@@ -1,0 +1,13 @@
+%fs-feature-button {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 10px 2.5em !important;
+  border-radius: 10px;
+  font-family: $font-tgbc20;
+  text-decoration: underline;
+  color: #FFF;
+  &:hover {
+    transform: scale(1.05);
+    transition: transform 0.5s ease-in-out;
+  }
+}

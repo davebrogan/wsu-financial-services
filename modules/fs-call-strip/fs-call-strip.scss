@@ -1,0 +1,23 @@
+.fs-call-strip {
+  padding: 1em 1.5em;
+  margin: 2vw;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 8px 2px #1f1c194f;
+
+  &__subtitle {
+    font-family: $font-tg;
+    color: wsu-palette($wcpurp-colors, 1);
+    font-size: 1.5rem;
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+  }
+  &__button {
+    @extend %fs-feature-button;
+    margin: 0;
+  }
+}
