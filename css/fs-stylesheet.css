@@ -244,12 +244,26 @@
   text-align: center;
   font-size: 1.2em;
   margin: 0 20px 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .fs-direc-btn {
   margin-bottom: 0;
-  border-radius: 50%;
-  transition: all 0.3s linear;
+}
+.fs-direc-btn a {
+  display: flex;
+  flex-direction: column;
+  font-family: tradegothiclt-bold, sans-serif;
+  text-decoration: none !important;
+  color: #492365 !important;
+  text-transform: uppercase;
+  transition: all 0.3s;
+  transition-timing-function: cubic-bezier(0.17, 0.67, 0.59, 0.92);
+}
+.fs-direc-btn a:hover {
+  transform: scale(1.1);
 }
 .fs-direc-btn__icon {
   width: 150px;

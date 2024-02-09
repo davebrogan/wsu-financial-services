@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="656d6068-f532-49d1-a2ee-81bee8f2127f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/fs-stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fs-stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pages/home/home.scss" beforeDir="false" afterPath="$PROJECT_DIR$/pages/home/home.scss" afterDir="false" />
@@ -20,14 +19,14 @@
     <favorites_list name="code" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.61027837">
+    <splitter split-orientation="horizontal" split-proportion="0.6788009">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/home/home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="609">
-                  <caret line="78" column="26" lean-forward="true" selection-end-line="164" />
+                <state relative-caret-position="350">
+                  <caret line="135" column="32" lean-forward="true" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
                   <folding>
                     <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#section#2;n#!!top" />
                   </folding>
@@ -35,10 +34,10 @@
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
+          <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/fs-stylesheet.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="143">
+                <state relative-caret-position="47">
                   <caret line="71" selection-start-line="71" selection-end-line="71" />
                 </state>
               </provider>
@@ -60,8 +59,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/home/home.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="505">
-                  <caret line="155" column="29" lean-forward="true" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+                <state relative-caret-position="522">
+                  <caret line="164" column="24" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
                 </state>
               </provider>
             </entry>
@@ -119,8 +118,8 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1751" />
-    <option name="y" value="-49" />
+    <option name="x" value="1692" />
+    <option name="y" value="-108" />
     <option name="width" value="2180" />
     <option name="height" value="1308" />
   </component>
@@ -212,12 +211,12 @@
       <workItem from="1700763704020" duration="17645000" />
       <workItem from="1703133701464" duration="4959000" />
       <workItem from="1704421262501" duration="394000" />
-      <workItem from="1706853340579" duration="1114000" />
+      <workItem from="1706853340579" duration="2321000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50886000" />
+    <option name="totallyTimeSpent" value="52093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -229,7 +228,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1751" y="-49" width="2180" height="1308" extended-state="0" />
+    <frame x="1692" y="-108" width="2180" height="1308" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5006974" weight="0.17924528" />
@@ -490,27 +489,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/css/fs-stylesheet.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="47">
+          <caret line="71" selection-start-line="71" selection-end-line="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="609">
-          <caret line="78" column="26" lean-forward="true" selection-end-line="164" />
+        <state relative-caret-position="350">
+          <caret line="135" column="32" lean-forward="true" selection-start-line="135" selection-start-column="32" selection-end-line="135" selection-end-column="32" />
           <folding>
             <element signature="n#li#0;n#ul#0;n#div#0;n#div#1;n#section#2;n#!!top" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/fs-stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="71" selection-start-line="71" selection-end-line="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home/home.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="505">
-          <caret line="155" column="29" lean-forward="true" selection-start-line="155" selection-start-column="29" selection-end-line="155" selection-end-column="29" />
+        <state relative-caret-position="522">
+          <caret line="164" column="24" selection-start-line="164" selection-start-column="24" selection-end-line="164" selection-end-column="24" />
         </state>
       </provider>
     </entry>
