@@ -130,4 +130,38 @@
   }
 }
 
+.frequent-searches {
+  &__grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 2.5em;
+    justify-content: center;
+    margin: 0 auto;
+    &__item {
 
+    }
+  }
+}
+
+.fs-direc-link {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 20px 20px;
+}
+
+.fs-direc-btn {
+  margin-bottom: 0;
+  border-radius: 50%;
+  transition: all .3s linear;
+  &__icon {
+    width: 150px;
+  }
+}
+
+.fs-direc-anchor {
+  font-family: tradegothiclt-bold,sans-serif;
+  text-decoration: none!important;
+  color: #492365!important;
+  text-transform: uppercase;
+}

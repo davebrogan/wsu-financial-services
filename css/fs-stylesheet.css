@@ -232,6 +232,36 @@
   text-shadow: 2px 2px 3px #1f1c19;
 }
 
+.frequent-searches__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-column-gap: 15px;
+  grid-row-gap: 2.5em;
+  justify-content: center;
+  margin: 0 auto;
+}
+.fs-direc-link {
+  text-align: center;
+  font-size: 1.2em;
+  margin: 0 20px 20px;
+}
+
+.fs-direc-btn {
+  margin-bottom: 0;
+  border-radius: 50%;
+  transition: all 0.3s linear;
+}
+.fs-direc-btn__icon {
+  width: 150px;
+}
+
+.fs-direc-anchor {
+  font-family: tradegothiclt-bold, sans-serif;
+  text-decoration: none !important;
+  color: #492365 !important;
+  text-transform: uppercase;
+}
+
 .fs-call-strip {
   padding: 1em 1.5em;
   margin: 2vw;
