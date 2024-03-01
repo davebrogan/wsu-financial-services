@@ -84,14 +84,20 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
   height: 200px;
-  padding: 10px;
   text-decoration: none !important;
-  text-align: center;
+}
+.departments-nav__link-grid__hover-pane {
+  padding: 10px;
+  display: flex;
+  align-items: stretch;
+  justify-content: stretch;
+  height: 100%;
+  background-color: rgba(73, 35, 101, 0);
+  transition: background-color 0.3s ease;
+}
+.departments-nav__link-grid__hover-pane:hover {
+  background-color: rgba(73, 35, 101, 0.5);
 }
 .departments-nav__link-grid__accounting {
   background-image: url("https://www.weber.edu/wsuimages/financialservices/new-site/images/home/fs-grid-menu-bg-accounting-1x.jpg");
@@ -224,12 +230,17 @@
 .departments-nav a.departments-nav__link {
   text-align: left;
   color: #FFF;
-  max-width: 70%;
+  width: 100%;
+  align-self: stretch;
+  height: 100%;
   text-decoration: none;
   line-height: 1.1;
   font-size: 2em;
   font-family: "tradegothicltcom-bdcn20", sans-serif;
   text-shadow: 2px 2px 3px #1f1c19;
+}
+.departments-nav a.departments-nav__link:hover, .departments-nav a.departments-nav__link:visited {
+  color: #FFF !important;
 }
 
 .frequent-searches__grid {
@@ -245,8 +256,9 @@
   font-size: 1.2em;
   margin: 0 20px 20px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
 .fs-direc-btn {
