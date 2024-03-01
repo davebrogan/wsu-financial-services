@@ -8,6 +8,10 @@
 @import "pages/about/about.scss";
 @import "pages/contact-strip/contact-strip.scss";
 
+.showcase-html-section {
+  box-shadow: none;
+}
+
 .card-personnel__content--dark > * a, .fancy-link-white{
   color: #FFF !important;
   border-bottom: 1px solid #FFF;

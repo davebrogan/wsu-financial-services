@@ -327,12 +327,26 @@
   background-color: #f3f3f3;
 }
 .contact-strip__cell {
-  padding: 0 20px;
+  padding: 0 55px;
   border-right: 1px solid black;
+}
+@media only screen and (max-width: 640px) {
+  .contact-strip__cell {
+    border-right: none;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.contact-strip__cell:last-child {
+  border-right: none;
 }
 .contact-strip h2.contact-strip__title {
   text-align: center;
   margin-bottom: 20px !important;
+}
+
+.showcase-html-section {
+  box-shadow: none;
 }
 
 .card-personnel__content--dark > * a, .fancy-link-white {
