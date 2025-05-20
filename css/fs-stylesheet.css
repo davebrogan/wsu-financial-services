@@ -39,15 +39,17 @@
   height: calc(100vw * (1000 / 3200));
 }
 .banner--fs-home__text-box--wrapper {
-  position: relative;
-  bottom: -36px;
   width: 100%;
-  padding: 2em;
-  margin: 4em 0 0;
+  position: absolute;
+  margin: 0;
 }
 @media only screen and (min-width: 800px) {
   .banner--fs-home__text-box--wrapper {
     max-width: 775px;
+    padding: 2em;
+    margin: 4em 0 0;
+    position: relative;
+    bottom: -36px;
   }
 }
 
@@ -56,6 +58,11 @@
 }
 .fs-home__text-box__text p {
   line-height: 1.2;
+}
+@media only screen and (max-width: 800px) {
+  .fs-home__text-box__text p {
+    font-size: 0.8em;
+  }
 }
 .fs-home__text-box__button {
   font-size: 1.5em;
@@ -297,6 +304,11 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 8px 2px #1f1c194f;
+}
+@media only screen and (max-width: 800px) {
+  .fs-call-strip {
+    flex-direction: column;
+  }
 }
 .fs-call-strip__subtitle {
   font-family: "tradegothiclt", sans-serif;

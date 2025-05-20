@@ -10,14 +10,16 @@
     min-height: 500px;
     @include aspect-ratio($aspect-width: 3200, $aspect-height: 1000);
     &__text-box--wrapper {
-      position: relative;
-      bottom: -36px;
       width: 100%;
+      position: absolute;
+      margin: 0;
       @media only screen and (min-width: 800px) {
         max-width: 775px;
+        padding: 2em;
+        margin: 4em 0 0;
+        position: relative;
+        bottom: -36px;
       }
-      padding: 2em;
-      margin: 4em 0 0;
     }
   }
 }
@@ -28,6 +30,9 @@
   }
   &__text p {
     line-height: 1.2;
+    @media only screen and (max-width: 800px) {
+      font-size:.8em;
+    }
   }
   &__button {
     font-size: 1.5em;
@@ -196,4 +201,7 @@
   text-decoration: none!important;
   color: #492365!important;
   text-transform: uppercase;
+  &__parking {
+    text-transform: none;
+  }
 }

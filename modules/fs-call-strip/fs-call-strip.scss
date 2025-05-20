@@ -7,7 +7,9 @@
   align-items: center;
   justify-content: space-between;
   box-shadow: 0 0 8px 2px #1f1c194f;
-
+  @media only screen and (max-width: 800px) {
+    flex-direction: column;
+  }
   &__subtitle {
     font-family: $font-tg;
     color: wsu-palette($wcpurp-colors, 1);
