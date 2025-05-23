@@ -4,9 +4,10 @@
 @import "ui-utilities-master/mixins";
 
 @import "pages/home/home.scss";
-@import "modules/fs-call-strip/fs-call-strip";
+@import "fs-modules/fs-call-strip/fs-call-strip";
 @import "pages/about/about.scss";
-@import "modules/fs-contact-strip/contact-strip.scss";
+@import "fs-modules/fs-contact-strip/contact-strip.scss";
+@import "fs-modules/fs-icon-menu-grid/fs-icon-menu-grid.scss";
 
 .showcase-html-section {
   box-shadow: none;
