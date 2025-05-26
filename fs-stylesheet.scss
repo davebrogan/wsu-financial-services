@@ -3,11 +3,11 @@
 @import "ui-utilities-master/functions";
 @import "ui-utilities-master/mixins";
 
-@import "pages/home/home.scss";
 @import "fs-modules/fs-call-strip/fs-call-strip";
-@import "pages/about/about.scss";
 @import "fs-modules/fs-contact-strip/contact-strip.scss";
 @import "fs-modules/fs-icon-menu-grid/fs-icon-menu-grid.scss";
+@import "pages/home/home.scss";
+@import "pages/about/about.scss";
 
 .showcase-html-section {
   box-shadow: none;
