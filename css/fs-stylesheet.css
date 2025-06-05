@@ -26,6 +26,112 @@
   transition: transform 0.5s ease-in-out;
 }
 
+.banner--fs-short {
+  background-image: url("https://www.weber.edu/wsuimages/parkingservices/Images/parkingbanner-1x.jpg");
+  position: relative;
+}
+@media only screen and (min-width: 1024px) and (min-resolution: 192dpi) {
+  .banner--fs-short {
+    background-image: url("https://www.weber.edu/wsuimages/parkingservices/Images/parkingbanner-2x.jpg");
+  }
+}
+.banner--fs-short__text-box--wrapper {
+  width: 100%;
+  position: absolute;
+  bottom: 66px;
+  margin: 0;
+}
+@media only screen and (min-width: 800px) {
+  .banner--fs-short__text-box--wrapper {
+    max-width: 450px;
+    padding: 2em;
+    margin: 4em 0 0;
+    position: absolute;
+    bottom: -18px;
+  }
+}
+.banner--fs-short__text-box__title {
+  font-weight: 900;
+}
+.banner--fs-short__text-box__text {
+  line-height: 1.2;
+  margin-bottom: 0;
+}
+.banner--fs-short__text-box__text--line2 {
+  text-transform: uppercase;
+}
+.banner--fs-short__text-box__button {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 10px 2em !important;
+  border-radius: 10px;
+  font-family: "tradegothiclt-bold", sans-serif;
+}
+
+/***************** fs-call-strip ********************/
+.fs-call-strip {
+  padding: 1em 1.5em;
+  margin: 2vw;
+  display: flex;
+  flex: 1;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow: 0 0 8px 2px #1f1c194f;
+}
+@media only screen and (max-width: 800px) {
+  .fs-call-strip {
+    flex-direction: column;
+  }
+}
+.fs-call-strip__subtitle {
+  font-family: "tradegothiclt", sans-serif;
+  color: #492365;
+  font-size: 1.5rem;
+  line-height: 1.2;
+  text-align: left;
+  margin: 0;
+}
+.fs-call-strip__button {
+  margin: 0;
+}
+
+.contact-strip {
+  background-color: #f3f3f3;
+}
+.contact-strip__cell {
+  padding: 0 55px;
+  border-right: 1px solid black;
+}
+@media only screen and (max-width: 640px) {
+  .contact-strip__cell {
+    border-right: none;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}
+.contact-strip__cell:last-child {
+  border-right: none;
+}
+.contact-strip h2.contact-strip__title {
+  text-align: center;
+  margin-bottom: 20px !important;
+}
+
+.fs-call-strip__button {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  padding: 10px 2.5em !important;
+  border-radius: 10px;
+  font-family: "tradegothicltcom-bdcn20", sans-serif;
+  text-decoration: underline;
+  color: #FFF;
+}
+.fs-call-strip__button:hover {
+  transform: scale(1.05);
+  transition: transform 0.5s ease-in-out;
+}
+
 .banner--fs-home {
   background-image: url("https://www.weber.edu/wsuimages/financialservices/new-site/images/2X-homebannerConcur-1x.jpg");
   min-height: 500px;
@@ -294,32 +400,8 @@
   color: #492365 !important;
   text-transform: uppercase;
 }
-
-.fs-call-strip {
-  padding: 1em 1.5em;
-  margin: 2vw;
-  display: flex;
-  flex: 1;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  box-shadow: 0 0 8px 2px #1f1c194f;
-}
-@media only screen and (max-width: 800px) {
-  .fs-call-strip {
-    flex-direction: column;
-  }
-}
-.fs-call-strip__subtitle {
-  font-family: "tradegothiclt", sans-serif;
-  color: #492365;
-  font-size: 1.5rem;
-  line-height: 1.2;
-  text-align: left;
-  margin: 0;
-}
-.fs-call-strip__button {
-  margin: 0;
+.fs-direc-anchor__parking {
+  text-transform: none;
 }
 
 .banner--fs-about {
@@ -333,28 +415,6 @@
 }
 .banner--fs-about--aspect-source {
   height: calc(100vw * (1000 / 3200));
-}
-
-.contact-strip {
-  background-color: #f3f3f3;
-}
-.contact-strip__cell {
-  padding: 0 55px;
-  border-right: 1px solid black;
-}
-@media only screen and (max-width: 640px) {
-  .contact-strip__cell {
-    border-right: none;
-    text-align: center;
-    margin-bottom: 30px;
-  }
-}
-.contact-strip__cell:last-child {
-  border-right: none;
-}
-.contact-strip h2.contact-strip__title {
-  text-align: center;
-  margin-bottom: 20px !important;
 }
 
 .showcase-html-section {

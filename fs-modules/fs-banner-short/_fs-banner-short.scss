@@ -1,0 +1,56 @@
+@import "../../ui-utilities-master/variables";
+@import "../../ui-utilities-master/placeholders";
+@import "../../ui-utilities-master/functions";
+@import "../../ui-utilities-master/mixins";
+
+.banner {
+  &--fs-short {
+    @include bg-interchange-retina("https://www.weber.edu/wsuimages/parkingservices/Images/parkingbanner-1x.jpg");
+    //max-height: 700px; (optional)
+    //min-height: 500px;
+    position: relative;
+    // @include aspect-ratio($aspect-width: 3200, $aspect-height: 1000);
+
+    &__text-box--wrapper {
+      width: 100%;
+      position: absolute;
+      bottom: 66px;
+      margin: 0;
+      @media only screen and (min-width: 800px) {
+        max-width: 450px;
+        padding: 2em;
+        margin: 4em 0 0;
+        position: absolute;
+        bottom: -18px;
+      }
+    }
+
+    &__text-box {
+      &__title {
+        font-weight: 900;
+      }
+
+      &__text {
+        line-height: 1.2;
+        margin-bottom: 0;
+        @media only screen and (max-width: 800px) {
+          //font-size: .8em;
+        }
+        &--line1 {
+
+        }
+        &--line2 {
+          text-transform: uppercase;
+        }
+      }
+
+      &__button {
+        font-size: 1.5em;
+        text-transform: uppercase;
+        padding: 10px 2em !important;
+        border-radius: 10px;
+        font-family: $font-tgb;
+      }
+    }
+  }
+}
