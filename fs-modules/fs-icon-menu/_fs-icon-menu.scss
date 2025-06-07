@@ -1,0 +1,22 @@
+.fs-icon-menu {
+  &__grid--three-across {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 2.5em;
+    justify-content: center;
+    margin: 0 auto;
+    &__item {
+    }
+  }
+  &__grid--four-across {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 15px;
+    grid-row-gap: 2.5em;
+    justify-content: center;
+    margin: 0 auto;
+    &__item {
+    }
+  }
+}

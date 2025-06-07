@@ -9,7 +9,11 @@
 }
 .fs-call-strip__button:hover {
   transform: scale(1.05);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fs-call-strip__purple__button {
+  text-transform: none;
 }
 
 .fs-call-strip__button {
@@ -23,7 +27,11 @@
 }
 .fs-call-strip__button:hover {
   transform: scale(1.05);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fs-call-strip__purple__button {
+  text-transform: none;
 }
 
 .banner--fs-short {
@@ -43,12 +51,15 @@
 }
 @media only screen and (min-width: 800px) {
   .banner--fs-short__text-box--wrapper {
-    max-width: 450px;
+    max-width: 50%;
     padding: 2em;
     margin: 4em 0 0;
     position: absolute;
     bottom: -18px;
   }
+}
+.banner--fs-short__text-box {
+  font-size: clamp(1.5rem, 3vw, 2.3rem);
 }
 .banner--fs-short__text-box__title {
   font-weight: 900;
@@ -95,7 +106,13 @@
 .fs-call-strip__button {
   margin: 0;
 }
-
+.fs-call-strip__purple {
+  background-color: #8446ac;
+  box-shadow: none;
+}
+.fs-call-strip__purple__subtitle {
+  color: #ffffff;
+}
 .contact-strip {
   background-color: #f3f3f3;
 }
@@ -129,7 +146,11 @@
 }
 .fs-call-strip__button:hover {
   transform: scale(1.05);
-  transition: transform 0.5s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+
+.fs-call-strip__purple__button {
+  text-transform: none;
 }
 
 .banner--fs-home {

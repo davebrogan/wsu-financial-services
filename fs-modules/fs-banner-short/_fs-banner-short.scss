@@ -9,7 +9,6 @@
     //max-height: 700px; (optional)
     //min-height: 500px;
     position: relative;
-    // @include aspect-ratio($aspect-width: 3200, $aspect-height: 1000);
 
     &__text-box--wrapper {
       width: 100%;
@@ -17,7 +16,7 @@
       bottom: 66px;
       margin: 0;
       @media only screen and (min-width: 800px) {
-        max-width: 450px;
+        max-width: 50%;
         padding: 2em;
         margin: 4em 0 0;
         position: absolute;
@@ -26,10 +25,11 @@
     }
 
     &__text-box {
+      font-size: clamp(1.5rem, 3vw, 2.3rem);
       &__title {
         font-weight: 900;
-      }
 
+      }
       &__text {
         line-height: 1.2;
         margin-bottom: 0;

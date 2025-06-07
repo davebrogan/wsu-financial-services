@@ -24,4 +24,14 @@
     @extend %fs-feature-button;
     margin: 0;
   }
+  &__purple {
+    background-color: wsu-palette($hlcolor-colors, 1);
+    box-shadow: none;
+    &__subtitle {
+      color: #ffffff;
+    }
+    &__button {
+      @extend %to-lowercase;
+    }
+  }
 }
