@@ -1,21 +1,27 @@
 .fs-icon-menu {
+  & ul {
+    list-style-type: none;
+  }
   &__grid--three-across {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 15px;
+    grid-template-columns: repeat(auto-fit, 160px);
+    grid-column-gap: 100px;
     grid-row-gap: 2.5em;
     justify-content: center;
     margin: 0 auto;
+
     &__item {
     }
   }
+
   &__grid--four-across {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-column-gap: 15px;
+    grid-template-columns: repeat(auto-fit, 150px);
+    grid-column-gap: 80px;
     grid-row-gap: 2.5em;
     justify-content: center;
     margin: 0 auto;
+
     &__item {
     }
   }

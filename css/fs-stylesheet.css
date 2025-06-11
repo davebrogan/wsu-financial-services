@@ -135,6 +135,25 @@
   margin-bottom: 20px !important;
 }
 
+.fs-icon-menu ul {
+  list-style-type: none;
+}
+.fs-icon-menu__grid--three-across {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 160px);
+  grid-column-gap: 100px;
+  grid-row-gap: 2.5em;
+  justify-content: center;
+  margin: 0 auto;
+}
+.fs-icon-menu__grid--four-across {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 150px);
+  grid-column-gap: 80px;
+  grid-row-gap: 2.5em;
+  justify-content: center;
+  margin: 0 auto;
+}
 .fs-call-strip__button {
   font-size: 1.5em;
   text-transform: uppercase;
