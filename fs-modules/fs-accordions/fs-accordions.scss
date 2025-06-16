@@ -1,0 +1,25 @@
+.fs-accordion {
+  &__item {
+    background-color: #e6e6e6;
+    margin-bottom: 15px;
+    &.is-active .fs-accordion__content{
+      display: flex;
+    }
+  }
+  &__title {
+  }
+  &--icon {
+    display: inline-block;
+    margin-right: 25px;
+    margin-left: 15px;
+  }
+  &__content {
+      background-color: inherit;
+    &__spacer {
+      width: 90px;
+    }
+    &__body {
+      display: block;
+    }
+  }
+}

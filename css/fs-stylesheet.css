@@ -154,6 +154,28 @@
   justify-content: center;
   margin: 0 auto;
 }
+.fs-accordion__item {
+  background-color: #e6e6e6;
+  margin-bottom: 15px;
+}
+.fs-accordion__item.is-active .fs-accordion__content {
+  display: flex;
+}
+.fs-accordion--icon {
+  display: inline-block;
+  margin-right: 25px;
+  margin-left: 15px;
+}
+.fs-accordion__content {
+  background-color: inherit;
+}
+.fs-accordion__content__spacer {
+  width: 90px;
+}
+.fs-accordion__content__body {
+  display: block;
+}
+
 .fs-call-strip__button {
   font-size: 1.5em;
   text-transform: uppercase;
