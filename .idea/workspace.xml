@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="656d6068-f532-49d1-a2ee-81bee8f2127f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/pages/risk-management-home/risk-management-home.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/risk-management-home/risk-management-home.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/fs-stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fs-stylesheet.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/parking-home/parking-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/parking-home/parking-home.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,43 +21,35 @@
     <favorites_list name="code" />
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.47078544">
+    <splitter split-orientation="horizontal" split-proportion="0.5932873">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file pinned="false" current-in-tab="false">
+          <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/pages/parking-home/parking-home.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="759">
-                  <caret line="33" selection-start-line="33" selection-end-line="33" />
+                <state relative-caret-position="460">
+                  <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
                   <folding>
                     <element signature="n#style#0;n#h1#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-                    <element signature="e#704#710#1" expanded="true" />
-                    <element signature="n#style#0;n#h1#1;n#div#0;n#section#1;n#!!top" expanded="true" />
+                    <element signature="e#2928#2934#1" expanded="true" />
+                    <element signature="n#section#3;n#!!top" />
+                    <element signature="e#3434#3440#1" expanded="true" />
+                    <element signature="e#3473#3479#1" expanded="true" />
+                    <element signature="e#3593#3598#0" expanded="true" />
+                    <element signature="e#6011#6016#0" expanded="true" />
+                    <element signature="e#7033#7039#0" expanded="true" />
+                    <element signature="e#8950#8957#0" expanded="true" />
+                    <element signature="e#8974#8981#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/pages/risk-management-home/risk-management-home.html">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fs-modules/fs-call-strip/fs-call-strip.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="133">
-                  <caret line="63" column="59" lean-forward="true" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
-                  <folding>
-                    <element signature="e#114#120#1" expanded="true" />
-                    <element signature="e#870#876#1" expanded="true" />
-                    <element signature="e#1063#1069#0" expanded="true" />
-                    <element signature="e#1245#1251#0" expanded="true" />
-                    <element signature="e#1325#1331#0" expanded="true" />
-                    <element signature="e#1513#1519#0" expanded="true" />
-                    <element signature="e#1717#1724#0" expanded="true" />
-                    <element signature="e#1796#1802#0" expanded="true" />
-                    <element signature="e#4658#4664#1" expanded="true" />
-                    <element signature="n#style#0;n#h2#0;n#div#2;n#section#3;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#0;n#div#2;n#section#3;n#!!top" expanded="true" />
-                    <element signature="n#style#0;n#p#2;n#div#2;n#section#3;n#!!top" expanded="true" />
-                    <element signature="e#5185#5192#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="299">
+                  <caret line="13" column="158" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="158" />
                 </state>
               </provider>
             </entry>
@@ -63,8 +57,8 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="621">
-                  <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
+                <state>
+                  <caret selection-end-line="27" selection-end-column="10" />
                 </state>
               </provider>
             </entry>
@@ -73,7 +67,7 @@
             <entry file="file://$PROJECT_DIR$/modules/icon/icon.html">
               <provider selected="true" editor-type-id="text-editor">
                 <state>
-                  <caret column="80" lean-forward="true" selection-end-column="117" />
+                  <caret column="80" selection-end-column="117" />
                 </state>
               </provider>
             </entry>
@@ -85,8 +79,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="161">
-                  <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+                <state relative-caret-position="253">
+                  <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
                 </state>
               </provider>
             </entry>
@@ -94,8 +88,26 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/ui-mod-base.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-27670">
-                  <caret line="938" column="13" selection-start-line="938" selection-start-column="13" selection-end-line="938" selection-end-column="13" />
+                <state relative-caret-position="8366">
+                  <caret line="2486" column="28" lean-forward="true" selection-start-line="2486" selection-start-column="28" selection-end-line="2486" selection-end-column="28" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/ui-utilities-master/_variables.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="667">
+                  <caret line="325" column="38" selection-start-line="325" selection-start-column="13" selection-end-line="325" selection-end-column="38" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fs-modules/fs-call-strip/_fs-call-strip.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="514">
+                  <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
                 </state>
               </provider>
             </entry>
@@ -103,8 +115,17 @@
           <file pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/css/ui-global-styles.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="-1542">
-                  <caret line="275" lean-forward="true" selection-start-line="275" selection-end-line="275" />
+                <state relative-caret-position="365">
+                  <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="621">
+                  <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
                 </state>
               </provider>
             </entry>
@@ -167,23 +188,23 @@
         <option value="$PROJECT_DIR$/fs-modules/fs-feature-box/_fs-feature-box.scss" />
         <option value="$PROJECT_DIR$/fs-modules/fs-feature-box/fs-feature-box.html" />
         <option value="$PROJECT_DIR$/pages/home/home.scss" />
-        <option value="$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss" />
         <option value="$PROJECT_DIR$/fs-modules/fs-icon-menu/fs-icon-menu.html" />
-        <option value="$PROJECT_DIR$/pages/parking-home/parking-home.html" />
         <option value="$PROJECT_DIR$/pages/parking-parking-enforcement/parking-enforcement.scss" />
         <option value="$PROJECT_DIR$/pages/parking-parking-enforcement/parking-enforcement.html" />
         <option value="$PROJECT_DIR$/fs-stylesheet.scss" />
         <option value="$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.html" />
-        <option value="$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss" />
         <option value="$PROJECT_DIR$/pages/risk-management-home/risk-management-home.scss" />
         <option value="$PROJECT_DIR$/pages/risk-management-home/risk-management-home.html" />
+        <option value="$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss" />
+        <option value="$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss" />
+        <option value="$PROJECT_DIR$/pages/parking-home/parking-home.html" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="1646" />
-    <option name="y" value="-89" />
-    <option name="width" value="2284" />
+    <option name="x" value="1508" />
+    <option name="y" value="-117" />
+    <option name="width" value="2492" />
     <option name="height" value="1365" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -242,18 +263,18 @@
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="code" type="b2602c69:ProjectViewProjectNode" />
-              <item name="code" type="462c0819:PsiDirectoryNode" />
-              <item name="modules" type="462c0819:PsiDirectoryNode" />
-              <item name="icon" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="code" type="b2602c69:ProjectViewProjectNode" />
               <item name="code" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="parking-home" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="code" type="462c0819:PsiDirectoryNode" />
+              <item name="ui-utilities-master" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -331,12 +352,12 @@
       <workItem from="1748280024048" duration="1561000" />
       <workItem from="1748718216341" duration="22942000" />
       <workItem from="1750027321517" duration="9417000" />
-      <workItem from="1750210015849" duration="3759000" />
+      <workItem from="1750210015849" duration="9714000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="104787000" />
+    <option name="totallyTimeSpent" value="110742000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -348,13 +369,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1559" y="25" width="2284" height="1365" extended-state="0" />
+    <frame x="1508" y="-117" width="2492" height="1365" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="0" show_stripe_button="false" sideWeight="0.5006974" type="SLIDING" weight="0.17890383" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49930266" visible="true" weight="0.10472824" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49930266" visible="true" weight="0.09591258" />
       <window_info x="2459" y="479" width="965" height="362" id="Find" order="2" sideWeight="0.49896586" weight="0.14322647" />
       <window_info id="Structure" order="3" sideWeight="0.49930266" weight="0.17852408" />
-      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.50103414" side_tool="true" visible="true" weight="0.21320605" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="0" sideWeight="0.50103414" side_tool="true" visible="true" weight="0.16070008" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.3292797" />
       <window_info anchor="bottom" id="Version Control" order="2" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
@@ -539,9 +561,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fs-modules/fs-icon-menu-grid/_fs-icon-menu-grid.scss">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/parking-parking-enforcement/parking-enforcement.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -584,13 +603,6 @@
     <entry file="file://$PROJECT_DIR$/pages/parking-home/parking-home.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/ui-utilities-master/_variables.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="23">
-          <caret line="181" column="10" selection-start-line="181" selection-start-column="10" selection-end-line="181" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/modules/icon/scss/_icon_local.scss">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -598,13 +610,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="414">
           <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -646,6 +651,16 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/risk-management-home/risk-management-home.scss">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/modules/icon/icon.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="80" selection-end-column="117" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/home/home.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="787">
@@ -653,74 +668,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fs-modules/fs-call-strip/_fs-call-strip.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/parking-home/parking-home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="759">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-          <folding>
-            <element signature="n#style#0;n#h1#0;n#div#0;n#section#1;n#!!top" expanded="true" />
-            <element signature="e#704#710#1" expanded="true" />
-            <element signature="n#style#0;n#h1#1;n#div#0;n#section#1;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/risk-management-home/risk-management-home.scss">
+    <entry file="file://$PROJECT_DIR$/fs-modules/fs-icon-menu-grid/_fs-icon-menu-grid.scss">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/ui-mod-base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-27670">
-          <caret line="938" column="13" selection-start-line="938" selection-start-column="13" selection-end-line="938" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs-modules/fs-call-strip/fs-call-strip.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
-          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="621">
-          <caret line="27" column="10" lean-forward="true" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/ui-global-styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1542">
-          <caret line="275" lean-forward="true" selection-start-line="275" selection-end-line="275" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="7" column="3" lean-forward="true" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/modules/icon/icon.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="80" lean-forward="true" selection-end-column="117" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pages/risk-management-home/risk-management-home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="63" column="59" lean-forward="true" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
+        <state relative-caret-position="221">
+          <caret line="63" column="59" selection-start-line="63" selection-start-column="59" selection-end-line="63" selection-end-column="59" />
           <folding>
             <element signature="e#114#120#1" expanded="true" />
             <element signature="e#870#876#1" expanded="true" />
@@ -735,6 +689,81 @@
             <element signature="n#style#0;n#p#0;n#div#2;n#section#3;n#!!top" expanded="true" />
             <element signature="n#style#0;n#p#2;n#div#2;n#section#3;n#!!top" expanded="true" />
             <element signature="e#5185#5192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ui-mod-base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8366">
+          <caret line="2486" column="28" lean-forward="true" selection-start-line="2486" selection-start-column="28" selection-end-line="2486" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs-modules/fs-call-strip/fs-call-strip.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="13" column="158" lean-forward="true" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="158" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/ui-global-styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="265" lean-forward="true" selection-start-line="265" selection-end-line="265" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ui-utilities-master/_variables.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="667">
+          <caret line="325" column="38" selection-start-line="325" selection-start-column="13" selection-end-line="325" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="621">
+          <caret line="27" column="1" lean-forward="true" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs-modules/fs-call-strip/_fs-call-strip.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="514">
+          <caret line="23" column="31" lean-forward="true" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="39" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/parking-home/parking-home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="43" column="67" selection-start-line="43" selection-start-column="67" selection-end-line="43" selection-end-column="67" />
+          <folding>
+            <element signature="n#style#0;n#h1#0;n#div#0;n#section#1;n#!!top" expanded="true" />
+            <element signature="e#2928#2934#1" expanded="true" />
+            <element signature="n#section#3;n#!!top" />
+            <element signature="e#3434#3440#1" expanded="true" />
+            <element signature="e#3473#3479#1" expanded="true" />
+            <element signature="e#3593#3598#0" expanded="true" />
+            <element signature="e#6011#6016#0" expanded="true" />
+            <element signature="e#7033#7039#0" expanded="true" />
+            <element signature="e#8950#8957#0" expanded="true" />
+            <element signature="e#8974#8981#0" expanded="true" />
           </folding>
         </state>
       </provider>

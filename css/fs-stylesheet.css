@@ -148,8 +148,8 @@
 }
 .fs-icon-menu__grid--four-across {
   display: grid;
-  grid-template-columns: repeat(auto-fit, 150px);
-  grid-column-gap: 80px;
+  grid-template-columns: repeat(auto-fit, 245px);
+  grid-column-gap: 66px;
   grid-row-gap: 2.5em;
   justify-content: center;
   margin: 0 auto;
@@ -160,6 +160,10 @@
 }
 .fs-accordion__item.is-active .fs-accordion__content {
   display: flex;
+}
+.fs-accordion__title h3 {
+  display: inline-block;
+  color: #492365;
 }
 .fs-accordion--icon {
   display: inline-block;

@@ -7,6 +7,10 @@
     }
   }
   &__title {
+    & h3 {
+      display: inline-block;
+      color: wsu-palette($wcpurp-colors, 1);
+    }
   }
   &--icon {
     display: inline-block;
