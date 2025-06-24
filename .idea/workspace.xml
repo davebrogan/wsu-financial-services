@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="656d6068-f532-49d1-a2ee-81bee8f2127f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/fs-stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/fs-stylesheet.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fs-modules/fs-accordions/fs-accordions.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss" beforeDir="false" afterPath="$PROJECT_DIR$/fs-modules/fs-icon-menu/_fs-icon-menu.scss" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/parking-home/parking-home.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/parking-home/parking-home.html" afterDir="false" />
-    </list>
+    <list default="true" id="656d6068-f532-49d1-a2ee-81bee8f2127f" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -352,12 +346,12 @@
       <workItem from="1748280024048" duration="1561000" />
       <workItem from="1748718216341" duration="22942000" />
       <workItem from="1750027321517" duration="9417000" />
-      <workItem from="1750210015849" duration="9714000" />
+      <workItem from="1750210015849" duration="9892000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="110742000" />
+    <option name="totallyTimeSpent" value="110920000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -370,7 +364,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="1508" y="-117" width="2492" height="1365" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info auto_hide="true" id="Favorites" internal_type="SLIDING" order="0" show_stripe_button="false" sideWeight="0.5006974" type="SLIDING" weight="0.17890383" />
       <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49930266" visible="true" weight="0.09591258" />
