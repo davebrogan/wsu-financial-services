@@ -7,15 +7,27 @@
     }
   }
   &__title {
+    display: flex;
     & h3 {
       display: inline-block;
       color: wsu-palette($wcpurp-colors, 1);
+      padding: 0.5em 1em;
+      margin-bottom: 0;
     }
   }
   &--icon {
     display: inline-block;
-    margin-right: 25px;
-    margin-left: 15px;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+  &--letter {
+    display: flex;
+    width: 90px;
+    justify-content: center;
+    align-items: center;
+    background-color: coral;
+    font-size: 3em;
+    color: #FFF;
   }
   &__content {
       background-color: inherit;
@@ -25,5 +37,14 @@
     &__body {
       display: block;
     }
+  }
+}
+
+.accordion-title.fs-accordion__title {
+  padding: 0;
+  display: flex;
+  &:hover {
+    padding: 0;
+    display: flex;
   }
 }

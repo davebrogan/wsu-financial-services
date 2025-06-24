@@ -161,14 +161,28 @@
 .fs-accordion__item.is-active .fs-accordion__content {
   display: flex;
 }
+.fs-accordion__title {
+  display: flex;
+}
 .fs-accordion__title h3 {
   display: inline-block;
   color: #492365;
+  padding: 0.5em 1em;
+  margin-bottom: 0;
 }
 .fs-accordion--icon {
   display: inline-block;
-  margin-right: 25px;
-  margin-left: 15px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+.fs-accordion--letter {
+  display: flex;
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+  background-color: coral;
+  font-size: 3em;
+  color: #FFF;
 }
 .fs-accordion__content {
   background-color: inherit;
@@ -178,6 +192,15 @@
 }
 .fs-accordion__content__body {
   display: block;
+}
+
+.accordion-title.fs-accordion__title {
+  padding: 0;
+  display: flex;
+}
+.accordion-title.fs-accordion__title:hover {
+  padding: 0;
+  display: flex;
 }
 
 .fs-call-strip__button {
