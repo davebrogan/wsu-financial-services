@@ -13,6 +13,7 @@
       color: wsu-palette($wcpurp-colors, 1);
       padding: 0.5em 1em;
       margin-bottom: 0;
+      font-family: $font-tg;
     }
   }
   &--icon {
@@ -51,6 +52,6 @@
   }
 }
 
-.parking-permit-accordion {
+.parking-permit-accordion, .parking-faq-accordion{
   padding: 1em 1.5em;
 }

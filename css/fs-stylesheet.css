@@ -169,6 +169,7 @@
   color: #492365;
   padding: 0.5em 1em;
   margin-bottom: 0;
+  font-family: "tradegothiclt", sans-serif;
 }
 .fs-accordion--icon {
   display: inline-block;
@@ -205,7 +206,7 @@
   display: flex;
 }
 
-.parking-permit-accordion {
+.parking-permit-accordion, .parking-faq-accordion {
   padding: 1em 1.5em;
 }
 
@@ -533,4 +534,42 @@
 span.honest-script {
   font-family: honest-script, cursive;
   color: #FFF;
+}
+
+.permit-button-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+@media only screen and (max-width: 767px) {
+  .permit-button-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.permit-button-wrapper .fs-call-strip__button {
+  width: 30%;
+  margin: 10px 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media only screen and (max-width: 767px) {
+  .permit-button-wrapper .fs-call-strip__button {
+    width: 80%;
+  }
+}
+
+.parking-map-link__container {
+  background-color: #ffffff;
+  margin: 0;
+  font-size: 1.2em;
+  width: 180px;
+  height: 180px;
+  padding: 0 2em 1em;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  border-radius: 50%;
+}
+.parking-map-link__button a {
+  text-transform: initial;
 }
