@@ -24,3 +24,13 @@
     font-weight: bold;
   }
 }
+
+@font-face {
+  font-family: honest-script;
+  src: url("https://www.weber.edu/wsuimages/parkingservices/fonts/HonestScript-Regular.ttf")
+}
+
+span.honest-script {
+  font-family: honest-script, cursive;
+  color: #FFF;
+}

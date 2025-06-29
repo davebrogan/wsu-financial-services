@@ -25,17 +25,19 @@
     width: 90px;
     justify-content: center;
     align-items: center;
-    background-color: coral;
-    font-size: 3em;
+    /*background-color: coral;*/
+    font-size: 2.3em;
     color: #FFF;
+    font-family: $font-tgbe;
   }
   &__content {
       background-color: inherit;
     &__spacer {
-      width: 90px;
+      min-width: 90px;
     }
     &__body {
       display: block;
+      padding-right: 100px;
     }
   }
 }
@@ -47,4 +49,8 @@
     padding: 0;
     display: flex;
   }
+}
+
+.parking-permit-accordion {
+  padding: 1em 1.5em;
 }
