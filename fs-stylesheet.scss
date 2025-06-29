@@ -38,6 +38,7 @@ span.honest-script {
 .permit-button-wrapper {
   display: flex;
   justify-content: space-around;
+  padding: 1.5em 0;
   @media #{$target-tablet-under} {
     flex-direction: column;
     align-items: center;
@@ -74,4 +75,8 @@ span.honest-script {
   &__icon {
 
   }
+}
+
+.other-permits__title {
+  margin-bottom: 15px;
 }

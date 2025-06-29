@@ -13,19 +13,22 @@
     &__text-box--wrapper {
       width: 100%;
       position: absolute;
-      bottom: 66px;
+      bottom: 0;
       margin: 0;
+      text-align: center;
+      padding: 1.2em;
       @media only screen and (min-width: 800px) {
         max-width: 50%;
         padding: 2em;
         margin: 4em 0 0;
         position: absolute;
         bottom: -18px;
+        text-align: left;
       }
     }
 
     &__text-box {
-      font-size: clamp(1.5rem, 3vw, 2.3rem);
+      font-size: clamp(2rem, 3vw, 2.8rem);
       &__title {
         font-weight: 900;
 

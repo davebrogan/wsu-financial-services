@@ -46,8 +46,10 @@
 .banner--fs-short__text-box--wrapper {
   width: 100%;
   position: absolute;
-  bottom: 66px;
+  bottom: 0;
   margin: 0;
+  text-align: center;
+  padding: 1.2em;
 }
 @media only screen and (min-width: 800px) {
   .banner--fs-short__text-box--wrapper {
@@ -56,10 +58,11 @@
     margin: 4em 0 0;
     position: absolute;
     bottom: -18px;
+    text-align: left;
   }
 }
 .banner--fs-short__text-box {
-  font-size: clamp(1.5rem, 3vw, 2.3rem);
+  font-size: clamp(2rem, 3vw, 2.8rem);
 }
 .banner--fs-short__text-box__title {
   font-weight: 900;
@@ -102,6 +105,12 @@
   line-height: 1.2;
   text-align: left;
   margin: 0;
+}
+@media only screen and (max-width: 800px) {
+  .fs-call-strip__subtitle {
+    text-align: center;
+    margin-bottom: 15px;
+  }
 }
 .fs-call-strip__button {
   margin: 0;
@@ -192,9 +201,19 @@
 .fs-accordion__content__spacer {
   min-width: 90px;
 }
+@media only screen and (max-width: 767px) {
+  .fs-accordion__content__spacer {
+    display: none;
+  }
+}
 .fs-accordion__content__body {
   display: block;
-  padding-right: 100px;
+  padding-right: 60px;
+}
+@media only screen and (max-width: 767px) {
+  .fs-accordion__content__body {
+    padding-right: 0;
+  }
 }
 
 .accordion-title.fs-accordion__title {
@@ -539,6 +558,7 @@ span.honest-script {
 .permit-button-wrapper {
   display: flex;
   justify-content: space-around;
+  padding: 1.5em 0;
 }
 @media only screen and (max-width: 767px) {
   .permit-button-wrapper {
@@ -572,4 +592,7 @@ span.honest-script {
 }
 .parking-map-link__button a {
   text-transform: initial;
+}
+.other-permits__title {
+  margin-bottom: 15px;
 }

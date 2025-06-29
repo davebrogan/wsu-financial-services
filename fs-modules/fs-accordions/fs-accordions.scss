@@ -35,10 +35,16 @@
       background-color: inherit;
     &__spacer {
       min-width: 90px;
+      @media #{$target-tablet-under} {
+        display: none;
+      }
     }
     &__body {
       display: block;
-      padding-right: 100px;
+      padding-right: 60px;
+      @media #{$target-tablet-under} {
+        padding-right: 0;
+      }
     }
   }
 }
@@ -52,6 +58,6 @@
   }
 }
 
-.parking-permit-accordion, .parking-faq-accordion{
+.parking-permit-accordion, .parking-faq-accordion {
   padding: 1em 1.5em;
 }
